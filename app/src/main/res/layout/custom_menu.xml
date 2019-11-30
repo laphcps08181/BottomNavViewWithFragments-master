@@ -1,0 +1,28 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/idLinearLayout"
+    android:layout_width="150dp"
+    android:layout_height="150dp"
+
+    android:layout_marginTop="1dp"
+    android:background="@drawable/customborder"
+    android:orientation="vertical">
+
+    <ImageView
+        android:background="@drawable/customborder"
+        android:id="@+id/logo"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:contentDescription="@null"
+        android:gravity="center"
+        android:src="@drawable/logopng" />
+
+    <TextView
+            android:id="@+id/tv_foodname"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="ITEM EXAMPLE"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
